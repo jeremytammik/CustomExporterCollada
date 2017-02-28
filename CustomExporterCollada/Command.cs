@@ -45,8 +45,15 @@ namespace CustomExporterCollada
 
             exporter.ShouldStopOnError = false;
             
-            exporter.Export(view3D);
-        }
+      try
+      {
+        exporter.Export( view3D );
+      }
+      catch( Autodesk.Revit.Exceptions.ExternalApplicationException ex )
+      {
+        Debug.Print( "ExternalApplicationException " + ex.Message );
+      }
+    }
 
     }
 }

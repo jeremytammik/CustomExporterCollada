@@ -32,5 +32,9 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion( "2017.0.0.0" )]
-[assembly: AssemblyFileVersion( "2017.0.0.0" )]
+//
+// 2017-02-28 2017.0.0.0 initial release based on http://thebuildingcoder.typepad.com/files/customexportercollada.zip and http://thebuildingcoder.typepad.com/blog/2013/07/graphics-pipeline-custom-exporter.html#5
+// 2017-02-28 2017.0.0.1 workaround -- added exception handler around call to exporter.Export
+//
+[assembly: AssemblyVersion( "2017.0.0.1" )]
+[assembly: AssemblyFileVersion( "2017.0.0.1" )]
