@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CustomExporterCollada</Text>
+    <Description>Some description for CustomExporterCollada</Description>
+    <Assembly>CustomExporterCollada.dll</Assembly>
+    <FullClassName>CustomExporterCollada.Command</FullClassName>
+    <ClientId>15bfc57e-fc19-48fc-8918-f92310b58a5b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
