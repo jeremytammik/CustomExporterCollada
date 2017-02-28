@@ -19,8 +19,8 @@ namespace CustomExporterCollada
     {
       get
       {
-        return ( elementStack.Count > 0 ) 
-          ? elementStack.Peek() 
+        return ( elementStack.Count > 0 )
+          ? elementStack.Peek()
           : ElementId.InvalidElementId;
       }
     }
@@ -29,7 +29,7 @@ namespace CustomExporterCollada
     {
       get
       {
-        return exportedDocument.GetElement( 
+        return exportedDocument.GetElement(
           CurrentElementId );
       }
     }
