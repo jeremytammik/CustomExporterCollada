@@ -36,6 +36,7 @@ using System.Runtime.InteropServices;
 // 2017-02-28 2017.0.0.0 initial release based on http://thebuildingcoder.typepad.com/files/customexportercollada.zip and http://thebuildingcoder.typepad.com/blog/2013/07/graphics-pipeline-custom-exporter.html#5
 // 2017-02-28 2017.0.0.1 workaround -- added exception handler around call to exporter.Export
 // 2017-10-26 2018.0.0.0 flat migration to Revit 2018
+// 2019-09-02 2020.0.0.0 flat migration to Revit 2020
 //
-[assembly: AssemblyVersion( "2018.0.0.0" )]
-[assembly: AssemblyFileVersion( "2018.0.0.0" )]
+[assembly: AssemblyVersion( "2020.0.0.0" )]
+[assembly: AssemblyFileVersion( "2020.0.0.0" )]
