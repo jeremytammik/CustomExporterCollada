@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Diagnostics;
 using System.IO;
 using Autodesk.Revit.DB;
 #endregion
@@ -65,7 +64,7 @@ namespace CustomExporterCollada
       CurrentPolymeshIndex = 0;
       polymeshToMaterialId.Clear();
 
-      streamWriter = new StreamWriter( "W:\\!Work\\Reit 2014\\test.dae" );
+      streamWriter = new StreamWriter( "C:/tmp/test.dae" );
 
       WriteXmlColladaBegin();
       WriteXmlAsset();
