@@ -37,7 +37,7 @@ namespace CustomExporterCollada
       View view3D )
     {
       MyExportContext context = new MyExportContext( 
-        document );
+        document, "C:/tmp/test.dae" );
 
       // Create an instance of a custom exporter by 
       // giving it a document and the context.

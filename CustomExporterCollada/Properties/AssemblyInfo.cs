@@ -39,6 +39,7 @@ using System.Runtime.InteropServices;
 // 2019-09-02 2020.0.0.0 flat migration to Revit 2020
 // 2019-09-02 2020.0.0.1 eliminated deprecated function call
 // 2019-09-02 2020.0.0.1 removed use of Windows.Forms
+// 2019-09-03 2020.0.0.2 added filepath argument and open strea writer in constructor
 //
-[assembly: AssemblyVersion( "2020.0.0.1" )]
-[assembly: AssemblyFileVersion( "2020.0.0.1" )]
+[assembly: AssemblyVersion( "2020.0.0.2" )]
+[assembly: AssemblyFileVersion( "2020.0.0.2" )]

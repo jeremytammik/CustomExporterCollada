@@ -53,18 +53,20 @@ namespace CustomExporterCollada
 
     Dictionary<uint, ElementId> polymeshToMaterialId = new Dictionary<uint, ElementId>();
 
-    public MyExportContext( Document document )
+    public MyExportContext( 
+      Document document,
+      string filepath )
     {
       this.exportedDocument = document;
       transformationStack.Push( Transform.Identity );
+
+      streamWriter = new StreamWriter( filepath );
     }
 
     public bool Start()
     {
       CurrentPolymeshIndex = 0;
       polymeshToMaterialId.Clear();
-
-      streamWriter = new StreamWriter( "C:/tmp/test.dae" );
 
       WriteXmlColladaBegin();
       WriteXmlAsset();
